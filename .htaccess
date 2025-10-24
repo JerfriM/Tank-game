@@ -1,0 +1,7 @@
+AddEncoding br .br
+<FilesMatch "\.js\.br$">
+  Header set Content-Type "application/javascript"
+</FilesMatch>
+<FilesMatch "\.wasm\.br$">
+  Header set Content-Type "application/wasm"
+</FilesMatch>
