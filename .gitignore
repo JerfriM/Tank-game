@@ -1,0 +1,30 @@
+# Archivos de log
+*.log
+npm-debug.log*
+
+# Directorios de dependencias y compilación
+/node_modules
+/dist
+/build
+
+# Archivos temporales o del sistema
+.DS_Store    # Archivos de Mac OS
+Thumbs.db    # Archivos de Windows
+
+# Configuración y secretos
+*.env
+.vscode/     # Configuración de VS Code (opcional, si no quieres compartirla)
+
+# Archivos de respaldo
+*~
+
+# === ENTRADAS ESPECÍFICAS DE UNITY (AÑADIR ESTO) ===
+
+# Carpetas generadas por Unity que DEBEN ser ignoradas
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Mm]emoryCaptures/
